@@ -1,0 +1,364 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "spacing": "None",
+            "style": "emphasis",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "width": "stretch",
+                            "padding": "None"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "id": "4b3986aa-ca62-8df9-f4c9-5d9bc8585978",
+                                    "url": "https://amdesigner.azurewebsites.net/samples/assets/Contoso_Logo.png",
+                                    "horizontalAlignment": "Right",
+                                    "altText": "Contoso Group Avatar",
+                                    "height": "12px"
+                                }
+                            ],
+                            "width": "auto",
+                            "verticalContentAlignment": "Center",
+                            "padding": "None"
+                        }
+                    ],
+                    "padding": "None"
+                }
+            ],
+            "padding": "Default"
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "size": "Large",
+                    "weight": "Bolder",
+                    "text": "Questionnaire sur le bien-être au travail",
+                    "wrap": true
+                }
+            ],
+            "padding": "Default",
+            "spacing": "None",
+            "separator": true
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "weight": "Bolder",
+                    "text": "1\\. Fonction Salariales",
+                    "wrap": true
+                },
+                {
+                    "type": "TextBlock",
+                    "id": "91d2066b-32c8-43ff-6534-a712e5d06886",
+                    "text": "Je suis satisfait de mon poste",
+                    "wrap": true
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "id": "Poste",
+                    "choices": [
+                        {
+                            "title": "Tout à fait d'accord",
+                            "value": "Tout à fait d'accord"
+                        },
+                        {
+                            "title": "D'accord",
+                            "value": "D'accord"
+                        },
+                        {
+                            "title": "Moyennement d'accord",
+                            "value": "Moyennement d'accord"
+                        },
+                        {
+                            "title": "Pas du tout d'accord",
+                            "value": "Pas du tout d'accord"
+                        }
+                    ],
+                    "isRequired": true
+                },
+                {
+                    "type": "TextBlock",
+                    "id": "91d2066b-32c8-43ff-6534-a712e5d06874",
+                    "text": "Je suis satisfait de mon salaire",
+                    "wrap": true
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "id": "Salaire",
+                    "choices": [
+                        {
+                            "title": "Tout à fait d'accord",
+                            "value": "Tout à fait d'accord"
+                        },
+                        {
+                            "title": "D'accord",
+                            "value": "D'accord"
+                        },
+                        {
+                            "title": "Moyennement d'accord",
+                            "value": "Moyennement d'accord"
+                        },
+                        {
+                            "title": "Pas du tout d'accord",
+                            "value": "Pas du tout d'accord"
+                        }
+                    ],
+                    "isRequired": true
+                },
+                {
+                    "type": "TextBlock",
+                    "id": "91d2066b-32c8-43ff-6534-a712e5d06856",
+                    "text": "Je suis satisfait de mes missions",
+                    "wrap": true
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "id": "Missions",
+                    "choices": [
+                        {
+                            "title": "Tout à fait d'accord",
+                            "value": "Tout à fait d'accord"
+                        },
+                        {
+                            "title": "D'accord",
+                            "value": "D'accord"
+                        },
+                        {
+                            "title": "Moyennement d'accord",
+                            "value": "Moyennement d'accord"
+                        },
+                        {
+                            "title": "Pas du tout d'accord",
+                            "value": "Pas du tout d'accord"
+                        }
+                    ],
+                    "isRequired": true
+                },
+                {
+                    "type": "TextBlock",
+                    "id": "91d2066b-32c8-43ff-6534-a711e5d06886",
+                    "text": "Mon poste est en adéquation avec mes aspirations professionnelles",
+                    "wrap": true
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "id": "Aspirations",
+                    "choices": [
+                        {
+                            "title": "Tout à fait d'accord",
+                            "value": "Tout à fait d'accord"
+                        },
+                        {
+                            "title": "D'accord",
+                            "value": "D'accord"
+                        },
+                        {
+                            "title": "Moyennement d'accord",
+                            "value": "Moyennement d'accord"
+                        },
+                        {
+                            "title": "Pas du tout d'accord",
+                            "value": "Pas du tout d'accord"
+                        }
+                    ],
+                    "isRequired": true
+                },
+                {
+                    "type": "TextBlock",
+                    "id": "91d2066b-32c8-43ff-6534-a712e5a06886",
+                    "text": "Je m’ennuie parfois",
+                    "wrap": true
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "id": "Ennuie",
+                    "choices": [
+                        {
+                            "title": "Tout à fait d'accord",
+                            "value": "Tout à fait d'accord"
+                        },
+                        {
+                            "title": "D'accord",
+                            "value": "D'accord"
+                        },
+                        {
+                            "title": "Moyennement d'accord",
+                            "value": "Moyennement d'accord"
+                        },
+                        {
+                            "title": "Pas du tout d'accord",
+                            "value": "Pas du tout d'accord"
+                        }
+                    ],
+                    "isRequired": true
+                },
+                {
+                    "type": "TextBlock",
+                    "weight": "Bolder",
+                    "text": "2\\. Climat de l'entreprise",
+                    "wrap": true,
+                    "spacing": "Large"
+                },
+                {
+                    "type": "TextBlock",
+                    "id": "91d2066b-32c8-43ff-6534-a112e5d06886",
+                    "text": "Tous les salariés sont considérés de la même manière par la hiérarchie",
+                    "wrap": true
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "id": "Egalite",
+                    "choices": [
+                        {
+                            "title": "Tout à fait d'accord",
+                            "value": "Tout à fait d'accord"
+                        },
+                        {
+                            "title": "D'accord",
+                            "value": "D'accord"
+                        },
+                        {
+                            "title": "Moyennement d'accord",
+                            "value": "Moyennement d'accord"
+                        },
+                        {
+                            "title": "Pas du tout d'accord",
+                            "value": "Pas du tout d'accord"
+                        }
+                    ],
+                    "isRequired": true
+                },
+                {
+                    "type": "TextBlock",
+                    "id": "91d2066b-32c8-43ff-6534-a712ebd06886",
+                    "text": "L'ambiance est bonne au sein de mon équipe.",
+                    "wrap": true
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "id": "AmbianceEquipe",
+                    "choices": [
+                        {
+                            "title": "Tout à fait d'accord",
+                            "value": "Tout à fait d'accord"
+                        },
+                        {
+                            "title": "D'accord",
+                            "value": "D'accord"
+                        },
+                        {
+                            "title": "Moyennement d'accord",
+                            "value": "Moyennement d'accord"
+                        },
+                        {
+                            "title": "Pas du tout d'accord",
+                            "value": "Pas du tout d'accord"
+                        }
+                    ],
+                    "isRequired": true
+                },
+                {
+                    "type": "TextBlock",
+                    "id": "91d2066b-32c8-43ff-6534-a762e5d06886",
+                    "text": "Les salariés de l’entreprise me semblent épanouis",
+                    "wrap": true
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "id": "Epanouis",
+                    "choices": [
+                        {
+                            "title": "Tout à fait d'accord",
+                            "value": "Tout à fait d'accord"
+                        },
+                        {
+                            "title": "D'accord",
+                            "value": "D'accord"
+                        },
+                        {
+                            "title": "Moyennement d'accord",
+                            "value": "Moyennement d'accord"
+                        },
+                        {
+                            "title": "Pas du tout d'accord",
+                            "value": "Pas du tout d'accord"
+                        }
+                    ],
+                    "isRequired": true
+                },
+                {
+                    "type": "TextBlock",
+                    "weight": "Bolder",
+                    "text": "3\\. Depuis quand êtes-vous salariés de Contoso",
+                    "wrap": true,
+                    "spacing": "Large"
+                },
+                {
+                    "type": "Input.Date",
+                    "id": "Date",
+                    "isRequired": true,
+                    "placeholder": "When were you informed about the event?",
+                    "label": "When were you informed about the event?"
+                },
+                {
+                    "type": "TextBlock",
+                    "weight": "Bolder",
+                    "text": "4\\. Commentaires",
+                    "wrap": true,
+                    "spacing": "Large"
+                },
+                {
+                    "type": "Input.Text",
+                    "id": "Commentaire",
+                    "placeholder": "",
+                    "label": "What did you like about the event?",
+                    "isMultiline": true
+                },
+                {
+                    "type": "ActionSet",
+                    "actions": [
+                        {
+                            "type": "Action.Http",
+                            "title": "Envoyer",
+                            "method": "POST",
+                            "url": "https://webhook.site/5797b992-beef-4dc4-8d0b-a5c031f2c2c7",
+                            "body": "{\"Poste\": \"{{Poste.value}}\", \"Salaire\":\"{{Salaire.value}}\", \"Missions\":\"{{Missions.value}}\", \n\"Aspirations\":\"{{Aspirations.value}}\", \"Ennuie\":\"{{Ennuie.value}}\", \"Egalite\":\"{{Egalite.value}}\", \"AmbianceEquipe\":\"{{AmbianceEquipe.value}}\",\"Epanouis\":\"{{Epanouis.value}}\",\"Date\":\"{{Date.value}}\",\"Commentaire\":\"{{Commentaire.value}}\"}",
+                            "isPrimary": true,
+                            "style": "positive"
+                        }
+                    ]
+                }
+            ],
+            "padding": {
+                "top": "Small",
+                "bottom": "Default",
+                "left": "Default",
+                "right": "Default"
+            },
+            "spacing": "None"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "padding": "None",
+    "@type": "AdaptiveCard",
+    "@context": "http://schema.org/extensions"
+}
