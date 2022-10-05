@@ -4,7 +4,9 @@ param(
   [Parameter(Mandatory=$true)]
   $To,
   [Parameter(Mandatory=$true)]
-  $FullPathCard
+  $FullPathCard,
+  [Parameter(Mandatory=$true)]
+  $Subject
 )
 
 Connect-MgGraph -Scopes "Mail.Send"
