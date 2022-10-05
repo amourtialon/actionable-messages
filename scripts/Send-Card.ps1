@@ -14,7 +14,7 @@ Connect-MgGraph -Scopes "Mail.Send"
 $MailBody = (Get-Content .\MailBody.html)
 $Card = (Get-Content $FullPathCard -Encoding utf8) | ConvertFrom-Json
 
-$CardJson = $Card | ConvertTo-Json -Depth 7
+$CardJson = $Card | ConvertTo-Json -Depth 8
 
 $Message = $MailBody.Replace("%CARD%",$CardJson)
 
