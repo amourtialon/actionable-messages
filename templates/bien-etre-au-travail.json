@@ -1,5 +1,8 @@
 {
     "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "padding": "None",
     "body": [
         {
             "type": "Container",
@@ -27,7 +30,7 @@
                                     "id": "4b3986aa-ca62-8df9-f4c9-5d9bc8585978",
                                     "url": "https://amdesigner.azurewebsites.net/samples/assets/Contoso_Logo.png",
                                     "horizontalAlignment": "Right",
-                                    "altText": "Contoso Group Avatar",
+                                    "altText": "Contoso",
                                     "height": "12px"
                                 }
                             ],
@@ -73,6 +76,7 @@
                 },
                 {
                     "type": "Input.ChoiceSet",
+                    "placeholder": "Choisir une réponse",
                     "id": "Poste",
                     "choices": [
                         {
@@ -102,6 +106,7 @@
                 },
                 {
                     "type": "Input.ChoiceSet",
+                    "placeholder": "Choisir une réponse",
                     "id": "Salaire",
                     "choices": [
                         {
@@ -131,6 +136,7 @@
                 },
                 {
                     "type": "Input.ChoiceSet",
+                    "placeholder": "Choisir une réponse",
                     "id": "Missions",
                     "choices": [
                         {
@@ -160,6 +166,7 @@
                 },
                 {
                     "type": "Input.ChoiceSet",
+                    "placeholder": "Choisir une réponse",
                     "id": "Aspirations",
                     "choices": [
                         {
@@ -189,6 +196,7 @@
                 },
                 {
                     "type": "Input.ChoiceSet",
+                    "placeholder": "Choisir une réponse",
                     "id": "Ennuie",
                     "choices": [
                         {
@@ -225,6 +233,7 @@
                 },
                 {
                     "type": "Input.ChoiceSet",
+                    "placeholder": "Choisir une réponse",
                     "id": "Egalite",
                     "choices": [
                         {
@@ -254,6 +263,7 @@
                 },
                 {
                     "type": "Input.ChoiceSet",
+                    "placeholder": "Choisir une réponse",
                     "id": "AmbianceEquipe",
                     "choices": [
                         {
@@ -283,6 +293,7 @@
                 },
                 {
                     "type": "Input.ChoiceSet",
+                    "placeholder": "Choisir une réponse",
                     "id": "Epanouis",
                     "choices": [
                         {
@@ -315,8 +326,8 @@
                     "type": "Input.Date",
                     "id": "Date",
                     "isRequired": true,
-                    "placeholder": "When were you informed about the event?",
-                    "label": "When were you informed about the event?"
+                    "placeholder": "Votre arrivé",
+                    "label": "Votre arrivé"
                 },
                 {
                     "type": "TextBlock",
@@ -328,8 +339,7 @@
                 {
                     "type": "Input.Text",
                     "id": "Commentaire",
-                    "placeholder": "",
-                    "label": "What did you like about the event?",
+                    "placeholder": "Un message à faire passer ?",
                     "isMultiline": true
                 },
                 {
@@ -355,10 +365,7 @@
             },
             "spacing": "None"
         }
-    ],
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "version": "1.0",
-    "padding": "None",
-    "@type": "AdaptiveCard",
-    "@context": "http://schema.org/extensions"
+    ]
+    
+   
 }
