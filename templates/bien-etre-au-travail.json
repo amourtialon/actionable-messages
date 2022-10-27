@@ -352,7 +352,13 @@
                             "url": "https://webhook.site/",
                             "body": "{\"Poste\": \"{{Poste.value}}\", \"Salaire\":\"{{Salaire.value}}\", \"Missions\":\"{{Missions.value}}\", \n\"Aspirations\":\"{{Aspirations.value}}\", \"Ennuie\":\"{{Ennuie.value}}\", \"Egalite\":\"{{Egalite.value}}\", \"AmbianceEquipe\":\"{{AmbianceEquipe.value}}\",\"Epanouis\":\"{{Epanouis.value}}\",\"Date\":\"{{Date.value}}\",\"Commentaire\":\"{{Commentaire.value}}\"}",
                             "isPrimary": true,
-                            "style": "positive"
+                            "style": "positive",
+                            "headers": [
+                                {
+                                    "name": "Authorization",
+                                    "value": ""
+                                }
+                            ]
                         }
                     ]
                 }
