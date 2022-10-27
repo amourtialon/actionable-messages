@@ -36,4 +36,4 @@ $Body = @{
     }
 }
 
-Send-MgUserMail -UserId $To -BodyParameter $Body
+Send-MgUserMail -UserId $From -BodyParameter $Body
